@@ -1,19 +1,19 @@
 {
-    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
         "hostingPlanName": {
             "type": "string",
             "minLength": 1,
-            "defaultValue": "SonarQubeAppServicePlan"
+            "defaultValue": "PretparkSonarQubeTutorialAppServicePlan"
         },
         "siteLocation": {
             "type": "string",
-            "defaultValue": "North Central US"
+            "defaultValue": "West Europe"
         },
         "siteName": {
             "type": "string",
-            "defaultValue": "SonarQubeAppService"
+            "defaultValue": "PretparkSonarQubeTutorial"
         },
         "skuName": {
             "defaultValue": "B1",
